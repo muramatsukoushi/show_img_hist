@@ -9,7 +9,7 @@ img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_
 
 im = imread(img_url)
 
-st.image(im, caption='here I changed the caption text',
+st.image(im, caption='here I have changed the caption text',
          use_column_width=True)
 
 
